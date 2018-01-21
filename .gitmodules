@@ -1,0 +1,6 @@
+[submodule "src/vendor/parser"]
+	path = src/vendor/parser
+	url = https://github.com/AnTAVR/parser.git
+[submodule "src/vendor/partinfo"]
+	path = src/vendor/partinfo
+	url = https://github.com/AnTAVR/partinfo.git
