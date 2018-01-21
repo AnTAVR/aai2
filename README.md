@@ -18,22 +18,18 @@ python3 -m venv --upgrade env
 
 ./get_text.sh
 
-cd src
-
-source ../env/bin/activate
+source env/bin/activate
 
 pip install pytest
-
-pip install pytest-smartcov
-
-pip install pytest-sugar
 
 pip install pythondialog
 
 #easy_install pythondialog
 
-source ../env/bin/activate
+cd src
 
 pytest
 
 python -m unittest discover
+
+./main.py
