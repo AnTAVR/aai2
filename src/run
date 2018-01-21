@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+setfont 'cyr-sun16'
+systemctl start gpm
+
+export LANGUAGE=ru
+cd "$(dirname ${0})"
+./main.py ${*}

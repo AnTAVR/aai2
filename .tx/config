@@ -1,0 +1,10 @@
+#tx pull —language ru
+[main]
+host = https://www.transifex.com
+type = PO
+minimum_perc = 80
+
+[aai2.public]
+file_filter = po/<lang>.po
+source_file = po/aai2.pot
+source_lang = ru

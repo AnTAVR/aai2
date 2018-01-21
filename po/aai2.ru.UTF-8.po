@@ -1,0 +1,808 @@
+# Russian translations for aai2 package.
+# This file is put in the public domain.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aai2 401.0e44300\n"
+"Report-Msgid-Bugs-To: aai@antavr.ru\n"
+"POT-Creation-Date: 2018-01-19 18:57+0300\n"
+"PO-Revision-Date: 2017-12-25 23:51+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/libs/db/db_types.py:179
+msgid "\"{}\" TZ \"{}\" not correct, set \"{}\""
+msgstr ""
+
+#: src/libs/db/db_types.py:183
+msgid "\"{}\" multi TZ , set \"{}\""
+msgstr ""
+
+#: src/libs/db/db_types.py:326
+msgid "\"{}\" multi keymap, set \"{}\""
+msgstr ""
+
+#: /usr/lib/python3.6/argparse.py:2389
+#, python-format
+msgid "%(prog)s: error: %(message)s\n"
+msgstr "%(prog)s: ошибка: %(message)s\n"
+
+#: /usr/lib/python3.6/argparse.py:2285
+#, python-format
+msgid "%r is not callable"
+msgstr "%r не вызываемый"
+
+#: /usr/lib/python3.6/argparse.py:1427
+msgid "'required' is an invalid argument for positionals"
+msgstr "'требуется' является недействительным аргументом для positionals"
+
+#: src/modules/base/m_main.py:109
+msgid "(КАТЕГОРИЧЕСКИ НЕ РЕКОМЕНДУЕТСЯ)"
+msgstr ""
+
+#: /usr/lib/python3.6/argparse.py:826
+msgid ".__call__() not defined"
+msgstr ".__call__() не определен"
+
+#: src/modules/part/m_markup.py:135
+msgid "10GiB на одного пользователя и 20GiB на бэкапы и кеш системы"
+msgstr ""
+
+#: src/modules/net/m_dhcp.py:63
+msgid "DHCP"
+msgstr ""
+
+#: src/modules/net/l_net.py:46
+msgid "DNS сервер ({}): {}"
+msgstr ""
+
+#: src/modules/net/m_static.py:73
+msgid "IP адрес ({}): {}"
+msgstr ""
+
+#: src/modules/part/m_lvm.py:19
+msgid "LVM"
+msgstr ""
+
+#: src/modules/net/m_pppoe.py:26
+msgid "PPPoE"
+msgstr ""
+
+#: src/modules/part/m_raid.py:19
+msgid "RAID"
+msgstr ""
+
+#: src/libs/db/db_lib.py:154
+msgid "Reade \"{}\"."
+msgstr ""
+
+#: src/modules/part/m_mount_efi.py:26
+msgid "UEFI раздел"
+msgstr ""
+
+#: src/modules/net/m_vpn.py:26
+msgid "VPN"
+msgstr ""
+
+#: src/modules/net/m_wifi.py:26
+msgid "WIFI"
+msgstr ""
+
+#: src/libs/db/db_lib.py:136
+msgid "Writen \"{}\"."
+msgstr ""
+
+#: src/modules/xorg/m_main.py:22
+msgid "Xorg"
+msgstr ""
+
+#: /usr/lib/python3.6/argparse.py:2118
+#, python-format
+msgid "ambiguous option: %(option)s could match %(matches)s"
+msgstr "неоднозначный вариант: %(option)s может соответствовать %(matches)s"
+
+#: /usr/lib/python3.6/argparse.py:1177
+#, python-format
+msgid "argument \"-\" with mode %r"
+msgstr "аргумент \"-\" с режимом %r"
+
+#: src/modules/basedevel/m_main.py:22
+msgid "base-devel + yaourt"
+msgstr ""
+
+#: /usr/lib/python3.6/argparse.py:1185
+#, python-format
+msgid "can't open '%s': %s"
+msgstr "невозможно можете открыть '%s': %s"
+
+#: /usr/lib/python3.6/argparse.py:1680
+msgid "cannot have multiple subparser arguments"
+msgstr "не может иметь несколько аргументов subparser"
+
+#: /usr/lib/python3.6/argparse.py:1389
+#, python-format
+msgid "cannot merge actions - two groups are named %r"
+msgstr "не можете объединить действия - две группы названы %r"
+
+#: /usr/lib/python3.6/argparse.py:1504
+#, python-format
+msgid "conflicting option string: %s"
+msgid_plural "conflicting option strings: %s"
+msgstr[0] "противоречивый вариант строки: %s"
+msgstr[1] "противоречивый вариант строк: %s"
+msgstr[2] ""
+
+#: /usr/lib/python3.6/argparse.py:1469
+#, python-format
+msgid "dest= is required for options like %r"
+msgstr "dest= требуется для опций, таких как %r"
+
+#: /usr/lib/python3.6/argparse.py:2058
+#, python-format
+msgid "expected %s argument"
+msgid_plural "expected %s arguments"
+msgstr[0] "ожидается %s аргумент"
+msgstr[1] "ожидается %s аргументов"
+msgstr[2] ""
+
+#: /usr/lib/python3.6/argparse.py:2056
+msgid "expected at least one argument"
+msgstr "ожидается, по крайней мере один аргумент"
+
+#: /usr/lib/python3.6/argparse.py:2055
+msgid "expected at most one argument"
+msgstr "ожидается не более одного аргумента"
+
+#: /usr/lib/python3.6/argparse.py:2054
+msgid "expected one argument"
+msgstr "ожидается один аргумент"
+
+#: /usr/lib/python3.6/argparse.py:1875 /usr/lib/python3.6/argparse.py:1889
+#, python-format
+msgid "ignored explicit argument %r"
+msgstr "игнорируется явный аргумент %r"
+
+#: /usr/lib/python3.6/argparse.py:2302
+#, python-format
+msgid "invalid %(type)s value: %(value)r"
+msgstr "недействительный %(type)s значение: %(value)r"
+
+#: /usr/lib/python3.6/argparse.py:2313
+#, python-format
+msgid "invalid choice: %(value)r (choose from %(choices)s)"
+msgstr "неправильный выбор: %(value)r (выберите из %(choices)s)"
+
+#: /usr/lib/python3.6/argparse.py:1486
+#, python-format
+msgid "invalid conflict_resolution value: %r"
+msgstr "неправильное conflict_resolution значение: %r"
+
+#: /usr/lib/python3.6/argparse.py:1449
+#, python-format
+msgid ""
+"invalid option string %(option)r: must start with a character "
+"%(prefix_chars)r"
+msgstr ""
+"неправильная опция строки %(option)r: должна начинаться с символа "
+"%(prefix_chars)r"
+
+#: src/modules/base/m_main.py:47
+msgid "localtime ({}): {}"
+msgstr ""
+
+#: src/modules/base/m_main.py:55
+msgid "mirrorlist ({}): {}"
+msgstr ""
+
+#: /usr/lib/python3.6/argparse.py:1570
+msgid "mutually exclusive arguments must be optional"
+msgstr "взаимоисключающие аргументы должны быть необязательными"
+
+#: /usr/lib/python3.6/argparse.py:1829
+#, python-format
+msgid "not allowed with argument %s"
+msgstr "невозможно разрешено с аргументом %s"
+
+#: /usr/lib/python3.6/argparse.py:2011
+#, python-format
+msgid "one of the arguments %s is required"
+msgstr "требуется один из аргументов %s"
+
+#: /usr/lib/python3.6/argparse.py:1634
+msgid "optional arguments"
+msgstr "необязательные аргументы"
+
+#: /usr/lib/python3.6/argparse.py:1633
+msgid "positional arguments"
+msgstr "позиционные аргументы"
+
+#: /usr/lib/python3.6/argparse.py:1649
+msgid "show this help message and exit"
+msgstr "показать это сообщение и выйти"
+
+#: src/modules/part/m_markup.py:138
+msgid "swap - RAM*2 ({}) {}"
+msgstr ""
+
+#: /usr/lib/python3.6/argparse.py:1996
+#, python-format
+msgid "the following arguments are required: %s"
+msgstr "требуются следующие аргументы: %s"
+
+#: /usr/lib/python3.6/argparse.py:2181
+#, python-format
+msgid "unexpected option string: %s"
+msgstr "неожиданно вариант строка: %s"
+
+#: src/modules/base/m_main.py:53
+msgid "unicode карта шрифта ({}): {}"
+msgstr ""
+
+#: /usr/lib/python3.6/argparse.py:1123
+#, python-format
+msgid "unknown parser %(parser_name)r (choices: %(choices)s)"
+msgstr "неизвестный парсер %(parser_name)r (выбор: %(choices)s)"
+
+#: /usr/lib/python3.6/argparse.py:1732
+#, python-format
+msgid "unrecognized arguments: %s"
+msgstr "непризнанные аргументы: %s"
+
+#: /usr/lib/python3.6/argparse.py:295
+msgid "usage: "
+msgstr "использование: "
+
+#: src/modules/part/m_auto.py:26
+msgid "Авто разметка и монтирование"
+msgstr ""
+
+#: src/modules/base/m_main.py:66
+msgid "Базовая система"
+msgstr ""
+
+#: src/modules/base/m_main.py:230
+msgid "В базе {} нет unicode карты шрифта по умолчанию для шрифта <{}> !!!"
+msgstr ""
+
+#: src/modules/base/m_main.py:207
+msgid "В базе {} нет карты шрифта по умолчанию для шрифта <{}> !!!"
+msgstr ""
+
+#: src/modules/base/m_main.py:133
+msgid "В базе {} нет локали по умолчанию для часового пояса <{}> !!!"
+msgstr ""
+
+#: src/modules/base/m_main.py:153
+msgid "В базе {} нет раскладки по умолчанию для локали <{}> !!!"
+msgstr ""
+
+#: src/modules/base/m_main.py:102
+msgid "В базе {} нет часового пояса по умолчанию для домена <{}> !!!"
+msgstr ""
+
+#: src/modules/base/m_main.py:186
+msgid "В базе {} нет шрифта по умолчанию для локали <{}> !!!"
+msgstr ""
+
+#: src/modules/part/m_auto.py:30 src/modules/part/m_mount.py:35
+#: src/modules/part/m_mount_home.py:31 src/modules/part/m_mount_root.py:31
+#: src/modules/part/m_main.py:35 src/modules/part/m_mount_efi.py:31
+#: src/modules/part/m_mount_swapfile.py:47 src/modules/part/m_mount_swap.py:32
+#: src/modules/part/m_mount_boot.py:31 src/modules/xorg/m_main.py:26
+#: src/modules/user/m_main.py:25 src/modules/baseplus/m_main.py:26
+#: src/modules/base/m_main.py:70 src/modules/de/m_main.py:25
+#: src/modules/pkgs/m_main.py:26 src/modules/webserver/m_main.py:25
+#: src/modules/basedevel/m_main.py:26 src/modules/net/m_main.py:43
+#: src/modules/bootloader/m_main.py:26 src/modules/printrs/m_main.py:25
+msgid "ВЫПОЛНЕНО"
+msgstr ""
+
+#: src/modules/net/l_net.py:77
+msgid "Введите DNS сервер ({})"
+msgstr ""
+
+#: src/modules/net/m_static.py:107
+msgid "Введите IP адрес ({})"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:116 src/modules/part/l_mount.py:132
+msgid "Введите дополнительные опции монтирования"
+msgstr ""
+
+#: src/modules/part/m_format.py:224
+msgid "Введите дополнительные опции форматирования"
+msgstr ""
+
+#: src/modules/base/m_main.py:252
+msgid "Введите имя компьютера"
+msgstr ""
+
+#: src/modules/net/m_static.py:140
+msgid "Введите маску подсети ({})"
+msgstr ""
+
+#: src/modules/net/l_net.py:140
+msgid "Введите прокси сервера"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:93
+msgid "Введите размер swap файла в {}"
+msgstr ""
+
+#: src/modules/net/m_static.py:176
+msgid "Введите широковещательный канал ({})"
+msgstr ""
+
+#: src/modules/net/m_static.py:212
+msgid "Введите шлюз ({})"
+msgstr ""
+
+#: src/modules/webserver/m_main.py:21
+msgid "Веб сервер"
+msgstr ""
+
+#: src/modules/base/m_main.py:108
+msgid "Всемирное координированное время"
+msgstr ""
+
+#: src/modules/base/m_main.py:222
+msgid "Выберите unicode карту шрифта"
+msgstr ""
+
+#: src/aai_framework/interface.py:156
+msgid "Выберите действие"
+msgstr ""
+
+#: src/modules/base/m_main.py:81
+msgid "Выберите домен вашей страны"
+msgstr ""
+
+#: src/modules/base/m_main.py:165
+msgid "Выберите дополнительную раскладку клавиатуры"
+msgstr ""
+
+#: src/modules/base/m_main.py:243
+msgid "Выберите зеркала (от 1 до 6 шт.)"
+msgstr ""
+
+#: src/modules/base/m_main.py:199
+msgid "Выберите карту шрифта"
+msgstr ""
+
+#: src/modules/base/m_main.py:125
+msgid "Выберите локаль"
+msgstr ""
+
+#: src/aai_framework/interface.py:181
+msgid "Выберите опции"
+msgstr ""
+
+#: src/modules/part/m_markup.py:167
+msgid "Выберите программу для разметки"
+msgstr ""
+
+#: src/modules/part/m_format.py:165
+msgid "Выберите программу для форматирования"
+msgstr ""
+
+#: src/modules/part/l_mount.py:110
+msgid "Выберите раздел для монтирования"
+msgstr ""
+
+#: src/modules/base/m_main.py:145
+msgid "Выберите раскладку клавиатуры"
+msgstr ""
+
+#: src/modules/net/m_main.py:89
+msgid "Выберите сетевой адаптер"
+msgstr ""
+
+#: src/modules/base/m_main.py:112
+msgid "Выберите тип аппаратных часов"
+msgstr ""
+
+#: src/modules/net/m_main.py:119
+msgid "Выберите тип подключения"
+msgstr ""
+
+#: src/modules/part/m_mount.py:47
+msgid "Выберите точку монтирования"
+msgstr ""
+
+#: src/modules/part/m_markup.py:149
+msgid "Выберите устройство для разметки"
+msgstr ""
+
+#: src/modules/part/m_format.py:88
+msgid "Выберите устройство для форматирования"
+msgstr ""
+
+#: src/modules/base/m_main.py:94
+msgid "Выберите часовой пояс"
+msgstr ""
+
+#: src/modules/base/m_main.py:178
+msgid "Выберите шрифт"
+msgstr ""
+
+#: src/aai_framework/interface.py:137
+msgid "Выполнение невозможно."
+msgstr ""
+
+#: src/modules/m_main.py:104
+msgid "Выполняй холоп!"
+msgstr ""
+
+#: src/modules/m_main.py:70 src/modules/m_main.py:103
+msgid "Выход"
+msgstr ""
+
+#: src/modules/part/m_main.py:41 src/modules/donate/m_main.py:34
+#: src/modules/net/m_main.py:91
+msgid "Главное меню"
+msgstr ""
+
+#: src/modules/part/m_mount_home.py:26
+msgid "Домашний раздел"
+msgstr ""
+
+#: src/modules/pkgs/m_main.py:22
+msgid "Дополнительное ПО"
+msgstr ""
+
+#: src/modules/part/m_markup.py:136
+msgid ""
+"Если установка на FLASH DRIVE, то можно не использовать отдельный раздел"
+msgstr ""
+
+#: src/modules/part/m_markup.py:82
+msgid "Загрузка BIOS GPT - 2MiB, {}"
+msgstr ""
+
+#: src/modules/part/m_mount_boot.py:26
+msgid "Загрузочный раздел"
+msgstr ""
+
+#: src/modules/bootloader/m_main.py:22
+msgid "Загрузчик"
+msgstr ""
+
+#: src/modules/m_main.py:65
+msgid "Инсталлятор Arch Linux"
+msgstr ""
+
+#: src/modules/part/m_mount_root.py:26
+msgid "Корневой раздел"
+msgstr ""
+
+#: src/modules/base/m_main.py:109
+msgid "Местное время"
+msgstr ""
+
+#: src/modules/part/m_markup.py:146
+msgid "Можно потом сделать swap в файл, если фс / (root) {}"
+msgstr ""
+
+#: src/modules/part/m_mount.py:31
+msgid "Монтирование разделов"
+msgstr ""
+
+#: src/modules/net/m_main.py:121
+msgid "Назад"
+msgstr ""
+
+#: src/modules/net/m_static.py:122
+msgid "Не правильная маска подсети ({})"
+msgstr ""
+
+#: src/modules/net/l_net.py:62
+msgid "Не правильный DNS сервер ({})"
+msgstr ""
+
+#: src/modules/net/m_static.py:93
+msgid "Не правильный IP адрес ({})"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:84
+msgid "Не правильный размер ({})"
+msgstr ""
+
+#: src/modules/net/m_static.py:155
+msgid "Не правильный широковещательный канал ({})"
+msgstr ""
+
+#: src/modules/net/m_static.py:191
+msgid "Не правильный шлюз ({})"
+msgstr ""
+
+#: src/modules/net/m_main.py:73
+msgid "Нет подключения к сети!!!"
+msgstr ""
+
+#: src/modules/part/m_markup.py:118
+msgid "Нужно сделать загрузочным!!!"
+msgstr ""
+
+#: src/modules/part/m_mount.py:36 src/modules/part/m_markup.py:125
+#: src/modules/part/m_mount_root.py:32 src/modules/part/m_main.py:36
+#: src/modules/part/m_mount_efi.py:32 src/modules/baseplus/m_main.py:27
+#: src/modules/base/m_main.py:71 src/modules/basedevel/m_main.py:27
+#: src/modules/net/m_main.py:44
+msgid "ОБЯЗАТЕЛЬНО!!!"
+msgstr ""
+
+#: src/modules/part/l_mount.py:71
+msgid "Отформатировать еще раз?"
+msgstr ""
+
+#: src/modules/m_main.py:116
+msgid "Повинуюсь :("
+msgstr ""
+
+#: src/modules/net/m_main.py:58 src/modules/net/l_connector.py:28
+msgid "Подождите..."
+msgstr ""
+
+#: src/modules/m_main.py:96
+msgid "Подтвердите выход ПОВЕЛИТЕЛЬ..."
+msgstr ""
+
+#: src/aai_framework/interface.py:241
+msgid "Подтвердите свой выбор"
+msgstr ""
+
+#: src/modules/part/l_main.py:53
+msgid "Подходящие накопители не найдены!!!"
+msgstr ""
+
+#: src/modules/donate/m_main.py:25
+msgid "Пожалуйста, поддержите разработку"
+msgstr ""
+
+#: src/aai_framework/interface.py:101 src/aai_framework/interface.py:111
+msgid "Пока не поддерживается"
+msgstr ""
+
+#: src/modules/user/m_main.py:21
+msgid "Пользователи"
+msgstr ""
+
+#: src/aai_framework/interface.py:112
+msgid "Помогите проекту, допишите данный функционал."
+msgstr ""
+
+#: src/modules/printrs/m_main.py:21
+msgid "Принтеры, сканеры"
+msgstr ""
+
+#: src/aai_framework/interface.py:131
+msgid "Пункт <{}> не выполнен."
+msgstr ""
+
+#: src/aai_framework/interface.py:126
+msgid "Пункт <{}> уже выполнен."
+msgstr ""
+
+#: src/modules/de/m_main.py:21
+msgid "Рабочий стол"
+msgstr ""
+
+#: src/modules/part/l_mount.py:84
+msgid "Раздел {} не отформатирован!!!"
+msgstr ""
+
+#: src/modules/part/l_mount.py:70
+msgid "Раздел {} уже отформатирован в {}"
+msgstr ""
+
+#: src/modules/part/m_mount_swap.py:27
+msgid "Раздел подкачки"
+msgstr ""
+
+#: src/modules/part/m_main.py:31
+msgid "Разделы"
+msgstr ""
+
+#: src/modules/part/m_markup.py:47
+msgid "Разметка диска"
+msgstr ""
+
+#: src/modules/part/m_mount.py:45
+msgid "Размонтировать"
+msgstr ""
+
+#: src/modules/baseplus/m_main.py:22
+msgid "Расширенная базовая система"
+msgstr ""
+
+#: src/modules/part/m_markup.py:108 src/modules/part/m_markup.py:133
+#: src/modules/part/m_markup.py:156 src/modules/part/m_mount_home.py:32
+#: src/modules/bootloader/m_main.py:27
+msgid "Рекомендуется"
+msgstr ""
+
+#: src/modules/net/m_main.py:117
+msgid "Сетевой адаптер: {}"
+msgstr ""
+
+#: src/modules/net/m_main.py:39
+msgid "Сеть"
+msgstr ""
+
+#: src/modules/part/l_mount.py:109
+msgid "Символом * помечены загрузочные разделы"
+msgstr ""
+
+#: src/modules/net/m_static.py:69
+msgid "Статичный IP"
+msgstr ""
+
+#: src/modules/net/m_main.py:46
+msgid "УСТРОЙСТВА НЕ НАЙДЕНЫ!!!"
+msgstr ""
+
+#: src/modules/net/m_main.py:87
+msgid "Уже подключено"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:42
+msgid "Файл подкачки"
+msgstr ""
+
+#: src/modules/part/m_format.py:54
+msgid "Форматирование разделов"
+msgstr ""
+
+#: src/modules/part/m_markup.py:77
+msgid "Цветом отмечены форматы таблицы разделов {}"
+msgstr ""
+
+#: src/modules/base/m_main.py:51
+msgid "Шрифт ({}): {}"
+msgstr ""
+
+#: src/main.py:43
+msgid "включение графического режима ({})"
+msgstr ""
+
+#: src/modules/part/m_markup.py:129
+msgid "все остальное место"
+msgstr ""
+
+#: src/aai_framework/interface.py:185
+msgid "выделено"
+msgstr ""
+
+#: src/modules/base/m_main.py:45
+msgid "домен ({}): {}"
+msgstr ""
+
+#: src/modules/base/m_main.py:50
+msgid "доп. раскладка клавиатуры ({}): {}"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:56
+msgid "единица измерения ({}): {}"
+msgstr ""
+
+#: src/modules/base/m_main.py:54
+msgid "имя компьютера ({}): {}"
+msgstr ""
+
+#: src/modules/base/m_main.py:52
+msgid "карта шрифта ({}): {}"
+msgstr ""
+
+#: src/modules/part/m_markup.py:52 src/modules/part/m_format.py:66
+msgid "команда ({}): {}"
+msgstr ""
+
+#: src/modules/base/m_main.py:48
+msgid "локаль ({}): {}"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:94
+msgid "максимально возможный размер: {}"
+msgstr ""
+
+#: src/modules/net/m_static.py:74
+msgid "маска подсети ({}): {}"
+msgstr ""
+
+#: src/modules/part/m_format.py:67 src/modules/part/m_mount_swapfile.py:57
+#: src/modules/part/l_mount.py:48
+msgid "опции ({}): {}"
+msgstr ""
+
+#: src/gen_db.py:19
+msgid "по умолчанию: \"{}\""
+msgstr ""
+
+#: src/main.py:36 src/modules/part/m_format.py:224
+#: src/modules/part/m_mount_swapfile.py:116 src/modules/part/l_mount.py:132
+#: src/aai_framework/interface.py:161 src/aai_framework/interface.py:185
+#: src/aai_framework/interface.py:199
+msgid "по умолчанию: {}"
+msgstr ""
+
+#: src/main.py:57
+msgid "показать номер версии программы и выйти"
+msgstr ""
+
+#: src/modules/net/l_net.py:47 src/modules/net/l_net.py:48
+#: src/modules/net/l_net.py:49
+msgid "прокси сервер ({}): {}"
+msgstr ""
+
+#: src/main.py:39
+msgid "путь к временной папке, в которую будут примонтированы разделы ({})"
+msgstr ""
+
+#: src/modules/part/m_markup.py:51 src/modules/part/m_format.py:64
+#: src/modules/part/l_mount.py:46
+msgid "раздел ({}): {}"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:55
+msgid "размер файла подкачки ({}): {}"
+msgstr ""
+
+#: src/modules/base/m_main.py:49
+msgid "раскладка клавиатуры ({}): {}"
+msgstr ""
+
+#: src/main.py:46 src/main.py:49
+msgid "режим без проверок выполненных пунктов ({})"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:95
+msgid "рекомендуемый размер: {}-{} {}"
+msgstr ""
+
+#: src/modules/net/l_net.py:45
+msgid "сетевой адаптер ({}): {}"
+msgstr ""
+
+#: src/modules/part/m_format.py:65
+msgid "тип ({}): {}"
+msgstr ""
+
+#: src/modules/part/m_markup.py:72
+msgid "тип {}"
+msgstr ""
+
+#: src/modules/part/m_format.py:63 src/modules/part/m_mount_swapfile.py:53
+#: src/modules/part/l_mount.py:45
+msgid "точка монтирования ({}): {}"
+msgstr ""
+
+#: src/main.py:54 src/gen_db.py:23
+msgid "уровень логирования ({})"
+msgstr ""
+
+#: src/modules/part/m_mount_swapfile.py:54
+msgid "файл подкачки ({}): {}"
+msgstr ""
+
+#: src/modules/part/l_mount.py:47
+msgid "файловая система ({}): {}"
+msgstr ""
+
+#: src/modules/base/m_main.py:46
+msgid "часовой пояс ({}): {}"
+msgstr ""
+
+#: src/modules/net/m_static.py:75
+msgid "широковещательный канал ({}): {}"
+msgstr ""
+
+#: src/modules/net/m_static.py:76
+msgid "шлюз ({}): {}"
+msgstr ""

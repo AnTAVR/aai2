@@ -1,0 +1,59 @@
+================================================================================
+				Пожертвования
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Если вам понравилась программа Arch AnTAVR Installer,
+то можете поддержать проект и перечислить
+ту сумму которую считаете необходимой
+
+на WebMoney кошельки:
+Z877406874024
+U248962863104
+E342164335684
+R171264279844
+на Яндекс Деньги:
+410012815723874
+
+
+В примечании можете указать Ваши предложения
+по поводу дальнейшего развития проекта,
+желаете ли Вы видеть свой ник
+и сумму поддержки в разделе "Друзья"
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+================================================================================
+================================================================================
+				Друзья
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1. John Doe			20	WME
+2. John Doe			27	WMR
+3. MaXiM			15	WMZ
+4. Alex			1	WMZ
+5. John Doe			345	WMR
+6. uO}I{bIk			5	WMZ
+7. vasek			1	WMZ
+8. dartsergius			2	WMZ
+
+Благодарю!!!
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+================================================================================
+
+
+Copyright (c) 2017-2017 Anthony Lyappiev <archlinux@antavr.ru>
+http://archlinux.antavr.ru
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
