@@ -1,0 +1,38 @@
+pkgname=aai2-git
+pkgbase=aai2
+pkgdesc="Arch AnTAVR Installer 2"
+
+pkgver=2.67bbfc5
+pkgrel=1
+
+arch=('any')
+url="http://aai.antavr.ru"
+license=('GPLv3')
+
+source=("${pkgbase}::git+https://github.com/AnTAVR/aai2.git")
+sha256sums=('SKIP')
+
+makedepends=('git' 'python' 'python-pythondialog' 'python-pytest')
+#depends=('inxi')
+depends=('procps-ng' 'iputils' 'util-linux' 'efivar' 'curl' 'git' 'systemd' 'python' 'python-pythondialog')
+
+pkgver() {
+  cd "${srcdir}/${pkgbase}"
+  echo $(git rev-list --count HEAD).$(git rev-parse --short HEAD)
+}
+
+build() {
+  cd "${srcdir}/${pkgbase}"
+
+  git submodule init
+  git submodule update
+
+  ./get_text.sh -m
+  pytest
+}
+
+package() {
+  cd "${srcdir}/${pkgbase}"
+
+  cp -r "src/" "${pkgdir}/${pkgbase}/"
+}
