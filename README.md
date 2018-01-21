@@ -6,6 +6,8 @@ http://archlinux.org.ru/forum/topic/10992/
 
 git clone https://github.com/AnTAVR/aai2.git
 
+cd aai2
+
 git submodule init
 
 git submodule update
