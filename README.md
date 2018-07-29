@@ -12,13 +12,13 @@ git submodule init
 
 git submodule update
 
-python3 -m venv env
+python3 -m venv venv
 
-python3 -m venv --upgrade env
+python3 -m venv --upgrade venv
 
 ./get_text.sh
 
-source env/bin/activate
+source venv/bin/activate
 
 pip install pytest
 
